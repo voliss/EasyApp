@@ -68,8 +68,8 @@
 
 .three-images-wrapper .two-images .two-images-outer .two-images-inner {
   position: absolute;
-  height: 170px;
-  right: 10%;
+  height: 180px;
+  right: 5%;
   width: 100%;
   /* IE 9 */
   -webkit-transform: skew(15deg, 0deg);

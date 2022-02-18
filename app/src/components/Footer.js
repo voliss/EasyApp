@@ -25,7 +25,7 @@ const Footer = () => {
           </ul>
         </nav>
         <div className={classes.tel}>
-          <h2>Tel. cislo: 777 648 999</h2>
+          <h2>Tel. čislo: +420 777 648 999</h2>
         </div>
       </div>
     </Fragment>
