@@ -22,11 +22,6 @@
   .two-images-inner {
     background-size: cover;
     background-position: center;
-
-    &:hover {
-      cursor: pointer;
-      opacity: 0.7;
-    }
   }
 
   .featured-image-inner {
@@ -58,7 +53,7 @@
 
       .two-images-inner {
         position: absolute;
-        height: 180px;
+        height: 170px;
         right: 5%;
         width: 100%;
         -ms-transform: skew(15deg, 0deg); /* IE 9 */

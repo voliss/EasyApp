@@ -1,3 +1,7 @@
+.story {
+  margin-top: 15rem;
+}
+
 .story h1 {
   color: #ffff;
   font-size: 2rem;
@@ -9,9 +13,31 @@
   width: 40%;
 }
 
+.story button {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  font-size: 3rem;
+  padding: 5px 55px;
+  border-radius: 1rem;
+  border: #ff0000 2px solid;
+  color: #ffffff;
+  background-color: #403c3c;
+  cursor: pointer;
+  position: relative;
+  top: 5rem;
+  z-index: 3;
+}
+
 .sec {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.svgecko {
+  margin: 0px;
+  position: absolute;
+  top: 29.8rem;
 }

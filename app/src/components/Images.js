@@ -22,7 +22,7 @@ const Images = () => {
               className={classes['two-images-inner']}
               style={{
                 backgroundImage: `url(
-                  'http://127.0.0.1:8887/volibrgr.png'
+                  'http://127.0.0.1:8887/brgrs.png'
                 )`,
               }}
             ></div>
@@ -32,7 +32,7 @@ const Images = () => {
               className={classes['two-images-inner']}
               style={{
                 backgroundImage: `url(
-                  'http://127.0.0.1:8887/brgrs.png'
+                  'http://127.0.0.1:8887/volibrgr.png'
                 )`,
               }}
             ></div>
