@@ -1,0 +1,17 @@
+.story h1 {
+  color: #ffff;
+  font-size: 2rem;
+}
+
+.story p {
+  color: #ffff;
+  font-size: 1.4rem;
+  width: 40%;
+}
+
+.sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

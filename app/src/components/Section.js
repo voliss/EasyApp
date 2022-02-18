@@ -1,9 +1,11 @@
 import React from 'react';
 
+import classes from './Section.module.css';
+
 const Section = () => {
   return (
-    <section>
-      <div>
+    <section className={classes.story}>
+      <div className={classes.sec}>
         <h1>Příběh Voliho burgerů</h1>
         <p>
           Od pradávna muži všeho druhu milovali maso nebo jeho náhrady. Voli
@@ -12,7 +14,7 @@ const Section = () => {
           že by si mohli svoje hambáče dělat sami.
         </p>
       </div>
-      <div>
+      <div className={classes.sec}>
         <h1>Sladké léto</h1>
         <p>
           Skvadra jenž Vám přichystá lahůdku přímo na stůl anebo Vám ji doveze
@@ -23,7 +25,7 @@ const Section = () => {
           ONLINE)
         </p>
       </div>
-      <div>
+      <div className={classes.sec}>
         <h1>Kouzelná zima</h1>
         <p>
           Dřív to byly tuhé zimy! V posledních letech se zimní měsíce díky
