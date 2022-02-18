@@ -1,5 +1,9 @@
+svg {
+  position: relative;
+  top: 10px;
+}
+
 .footstyle {
-  margin-top: 10rem;
   text-align: center;
   font-size: 1.4rem;
   background-color: #1d1d1d;
