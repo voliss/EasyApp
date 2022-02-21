@@ -1,0 +1,23 @@
+.btnPos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+button {
+  font-size: 3rem;
+  padding: 5px 55px;
+  border-radius: 1rem;
+  border: #ff0000 2px solid;
+  color: #ffffff;
+  background-color: #403c3c;
+  cursor: pointer;
+  position: relative;
+  top: 7rem;
+  z-index: 3;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}

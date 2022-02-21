@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
 
 import Images from './Images';
 import classes from './Section.module.css';
 import TopSvg from './TopSvg';
+import ButtonMenu from './ButtonMenu';
 
 const Section = () => {
   return (
@@ -41,9 +41,7 @@ const Section = () => {
             ONLINE objednávky)
           </p>
         </div>
-        <button>
-          <Link to='/menu'>MENU</Link>
-        </button>
+        <ButtonMenu>MENU</ButtonMenu>
       </section>
     </Fragment>
   );

@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 
 import classes from './MenuKatalog.module.css';
 import MenuSvg from './MenuSvg';
+import ButtonShop from './ButtonShop';
 
 const MenuKatalog = () => {
   return (
@@ -52,6 +53,7 @@ const MenuKatalog = () => {
           </div>
         </div>
       </section>
+      <ButtonShop>Objednej</ButtonShop>
     </Fragment>
   );
 };

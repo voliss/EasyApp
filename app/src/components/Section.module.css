@@ -13,7 +13,7 @@
   width: 40%;
 }
 
-.story button {
+/* .story button {
   display: flex;
   align-items: center;
   margin: auto;
@@ -32,7 +32,7 @@
 .story a {
   text-decoration: none;
   color: #ffff;
-}
+} */
 
 .sec {
   display: flex;
