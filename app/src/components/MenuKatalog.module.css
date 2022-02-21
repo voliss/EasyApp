@@ -17,5 +17,9 @@
 }
 
 .price {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
+  float: right;
+  position: relative;
+  right: 10rem;
+  bottom: 3rem;
 }
