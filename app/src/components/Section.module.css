@@ -29,6 +29,11 @@
   z-index: 3;
 }
 
+.story a {
+  text-decoration: none;
+  color: #ffff;
+}
+
 .sec {
   display: flex;
   flex-direction: column;

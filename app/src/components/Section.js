@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
 import Images from './Images';
 import classes from './Section.module.css';
@@ -40,7 +41,9 @@ const Section = () => {
             ONLINE objednávky)
           </p>
         </div>
-        <button>MENU</button>
+        <button>
+          <Link to='/menu'>MENU</Link>
+        </button>
       </section>
     </Fragment>
   );

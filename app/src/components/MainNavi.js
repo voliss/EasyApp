@@ -15,10 +15,10 @@ const MainNavi = () => {
             <NavLink to='/'>Story</NavLink>
           </li>
           <li>
-            <NavLink to='/'>Hambáč ke dveřím</NavLink>
+            <NavLink to='/shop'>Hambáč ke dveřím</NavLink>
           </li>
           <li>
-            <NavLink to='/'>Menu</NavLink>
+            <NavLink to='/menu'>Menu</NavLink>
           </li>
         </ul>
       </nav>

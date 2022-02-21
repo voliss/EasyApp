@@ -1,9 +1,9 @@
 import React from 'react';
 
-import MainNavi from '../components/MainNavi';
+import Images from '../components/Images';
 
 const Menu = () => {
-  return <MainNavi />;
+  return <Images />;
 };
 
 export default Menu;
