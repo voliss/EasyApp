@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 import Images from '../components/Images';
+import MenuKatalog from '../components/MenuKatalog';
 
 const Menu = () => {
-  return <Images />;
+  return (
+    <Fragment>
+      <Images />
+      <MenuKatalog />
+    </Fragment>
+  );
 };
 
 export default Menu;
