@@ -1,0 +1,37 @@
+.basics {
+  margin-top: 8rem;
+  color: #fff;
+}
+
+.textOne {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 600px;
+  margin-right: 10rem;
+}
+
+.textTwo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15rem;
+  float: left;
+  width: 700px;
+  margin-left: 15rem;
+}
+
+.textOne h3 {
+  text-align: center;
+}
+
+.textTwo h3 {
+  text-align: left;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+p {
+  font-size: 1.4rem;
+}

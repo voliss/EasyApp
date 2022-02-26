@@ -13,27 +13,6 @@
   width: 40%;
 }
 
-/* .story button {
-  display: flex;
-  align-items: center;
-  margin: auto;
-  font-size: 3rem;
-  padding: 5px 55px;
-  border-radius: 1rem;
-  border: #ff0000 2px solid;
-  color: #ffffff;
-  background-color: #403c3c;
-  cursor: pointer;
-  position: relative;
-  top: 5rem;
-  z-index: 3;
-}
-
-.story a {
-  text-decoration: none;
-  color: #ffff;
-} */
-
 .sec {
   display: flex;
   flex-direction: column;

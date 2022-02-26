@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import MainNavi from './components/MainNavi';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
+import Shop from './pages/Shop';
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
         <Route path='/menu'>
           <Menu />
         </Route>
-        <Route path='/shop'></Route>
+        <Route path='/shop'>
+          <Shop />
+        </Route>
       </main>
       <Footer />
     </Fragment>
