@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 
 import ShopKatalogContent from './ShopKatalogContent';
+import ShopKatalogOrder from './ShopKatalogOrder';
 import ShopSvg from './ShopSvg';
 
 const ShopKatalog = () => {
@@ -8,6 +9,7 @@ const ShopKatalog = () => {
     <Fragment>
       <ShopSvg />
       <ShopKatalogContent />
+      <ShopKatalogOrder />
     </Fragment>
   );
 };

@@ -10,7 +10,7 @@ const MenuKatalog = () => {
       <MenuSvg />
       <section className={classes.katalog}>
         <div>
-          <h3>Lipa Burger</h3>
+          <h3>Lípák</h3>
           <div>
             <span className={classes.info}>
               Domaci bulka, 180g BIO hovezi, cheddar, BBQ omacka, salat, kys.
@@ -21,7 +21,7 @@ const MenuKatalog = () => {
         </div>
 
         <div>
-          <h3>Divocak</h3>
+          <h3>Divočák</h3>
           <div>
             <span className={classes.info}>
               Domaci bulka, trhane BIO veprove, roztekly cheddar, sweetchilli
@@ -43,7 +43,7 @@ const MenuKatalog = () => {
         </div>
 
         <div>
-          <h3>Lejdy Burger</h3>
+          <h3>Lejdy</h3>
           <div>
             <span className={classes.info}>
               Domaci bulka, 140g BIO hovezi, eidam, salat, kecup, majoneza,
