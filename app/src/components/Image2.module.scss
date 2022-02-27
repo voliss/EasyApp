@@ -1,0 +1,61 @@
+.tw-images {
+  position: relative;
+  top: 35rem;
+  width: 100%;
+}
+
+.featured-image-outer {
+  position: absolute;
+  top: 0rem;
+  left: 3%;
+  min-height: 280px;
+  overflow: hidden;
+  width: 58%;
+  -ms-transform: skew(-15deg, 0deg);
+  -webkit-transform: skew(-15deg, 0deg);
+  transform: skew(-15deg, 0deg);
+}
+
+.featured-image-inner,
+.sec-images-inner {
+  background-size: cover;
+  background-position: center;
+}
+
+.featured-image-inner {
+  left: 50px;
+  position: absolute;
+  height: 360px;
+  width: 100%;
+  -ms-transform: skew(15deg, 0deg);
+  -webkit-transform: skew(15deg, 0deg);
+  transform: skew(15deg, 0deg);
+}
+
+.sec-images {
+  max-width: 700px;
+  width: 100%;
+  position: absolute;
+  right: 3%;
+  top: 0rem;
+  -ms-transform: skew(-15deg, 0deg);
+  -webkit-transform: skew(-15deg, 0deg);
+  transform: skew(-15deg, 0deg);
+
+  .sec-images-outer {
+    min-height: 380px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  .sec-images-inner {
+    position: absolute;
+    height: 280px;
+    right: 6%;
+    width: 100%;
+    -ms-transform: skew(15deg, 0deg);
+    -webkit-transform: skew(15deg, 0deg);
+    transform: skew(15deg, 0deg);
+  }
+}
