@@ -5,6 +5,7 @@ import classes from './ShopKatalogOrder.module.css';
 const ShopKatalogOrder = () => {
   return (
     <section className={classes.menuOrders}>
+      <h3>Objednej si:</h3>
       <div className={classes.item}>
         <label htmlFor='brgr-1'>Lípák</label>
         <div className={classes.btns}>

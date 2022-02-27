@@ -10,7 +10,7 @@ const Image2 = () => {
           className={classes['featured-image-inner']}
           style={{
             backgroundImage: `url(
-              'https://tasteandflavors.com/wp-content/uploads/2018/11/taste-and-flavors-out-and-about-10-best-burgers-wide.jpg'
+              'http://127.0.0.1:8887/brgrs-neon-1.png'
             )`,
           }}
         ></div>
@@ -21,7 +21,7 @@ const Image2 = () => {
             className={classes['sec-images-inner']}
             style={{
               backgroundImage: `url(
-                'http://127.0.0.1:8887/brgrs.png'
+                'http://127.0.0.1:8887/brgrs-neon-2.png'
               )`,
             }}
           ></div>
