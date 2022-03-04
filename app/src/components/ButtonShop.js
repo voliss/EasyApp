@@ -6,7 +6,7 @@ import classes from './Button.module.css';
 const Button = (props) => {
   return (
     <div className={classes.btnPos}>
-      <button>
+      <button className={classes.buttonDesign}>
         <Link to='/shop'>{props.children}</Link>
       </button>
     </div>

@@ -2,8 +2,8 @@ import { Fragment } from 'react';
 import { Route } from 'react-router-dom';
 
 import './App.css';
-import Footer from './components/Footer';
-import MainNavi from './components/MainNavi';
+import Footer from './components/Footer/Footer';
+import MainNavi from './components/MainNavi/MainNavi';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
 import Shop from './pages/Shop';

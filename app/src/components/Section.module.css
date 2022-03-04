@@ -1,15 +1,17 @@
 .story {
-  margin-top: 15rem;
+  position: relative;
+  top: 12rem;
+  margin-bottom: 10rem;
 }
 
 .story h1 {
   color: #ffff;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .story p {
   color: #ffff;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   width: 40%;
 }
 

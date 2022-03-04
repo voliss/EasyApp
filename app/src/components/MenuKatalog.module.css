@@ -1,12 +1,22 @@
 .katalog {
   display: block;
+  position: relative;
+  top: 5rem;
+}
+
+.katalog ul {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  margin-top: 12rem;
+}
+
+.katalog li {
+  margin-bottom: 3rem;
 }
 
 .katalog h3 {
   color: #ffff;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
 
 .katalog span {
@@ -14,13 +24,14 @@
 }
 
 .info {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  font-weight: 200;
 }
 
 .price {
   font-size: 1.9rem;
   float: right;
-  position: relative;
-  right: 10rem;
+  position: absolute;
+  right: 12rem;
   bottom: 3rem;
 }

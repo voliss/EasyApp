@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-import Images from '../components/Images';
+import Images from '../components/Images/Images';
 import MenuKatalog from '../components/MenuKatalog';
 
 const Menu = () => {

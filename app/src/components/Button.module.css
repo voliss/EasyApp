@@ -2,9 +2,11 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  position: relative;
+  top: 6rem;
 }
 
-button {
+.buttonDesign {
   font-size: 3rem;
   padding: 5px 55px;
   border-radius: 1rem;
@@ -12,8 +14,6 @@ button {
   color: #ffffff;
   background-color: #403c3c;
   cursor: pointer;
-  position: relative;
-  top: 7rem;
   z-index: 3;
 }
 

@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 
-import Images from './Images';
+import Images from './Images/Images';
 import classes from './Section.module.css';
-import TopSvg from './TopSvg';
+import TopSvg from './MainNavi/TopSvg';
 import ButtonMenu from './ButtonMenu';
 
 const Section = () => {

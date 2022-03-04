@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-import Images from '../components/Images';
+import Images from '../components/Images/Images';
 import ShopKatalog from '../components/ShopKatalog';
 
 const Shop = () => {
