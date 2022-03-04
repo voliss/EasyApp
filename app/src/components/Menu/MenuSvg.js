@@ -1,6 +1,6 @@
 import React from 'react';
 
-import classes from './TopSvg.module.css';
+import classes from '../MainNavi/TopSvg.module.css';
 
 const MenuSvg = () => {
   return (

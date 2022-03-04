@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 
-import Images from './Images/Images';
+import Images from '../Images/Images';
 import classes from './Section.module.css';
-import TopSvg from './MainNavi/TopSvg';
-import ButtonMenu from './ButtonMenu';
+import TopSvg from '../MainNavi/TopSvg';
+import ButtonMenu from '../Button/ButtonMenu';
 
 const Section = () => {
   return (

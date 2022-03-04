@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 
-import MenuSvg from './MainNavi/MenuSvg';
-import ButtonShop from './ButtonShop';
+import MenuSvg from './MenuSvg';
+import ButtonShop from '../Button/ButtonShop';
 import OrderItem from './OrderItem';
 
-const burgery = [
+export const burgery = [
   {
     id: 'b1',
     nazev: 'Lípák',
