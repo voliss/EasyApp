@@ -43,18 +43,20 @@ export const burgery = [
 ];
 
 const MenuKatalog = () => {
+  const burgerMenuList = burgery.map((burger) => (
+    <OrderItem
+      key={burger.id}
+      nazev={burger.nazev}
+      cena={burger.cena}
+      popis={burger.popis}
+      obsah={burger.obsah}
+    />
+  ));
+
   return (
     <Fragment>
       <MenuSvg />
-      {burgery.map((burger) => (
-        <OrderItem
-          key={burger.id}
-          nazev={burger.nazev}
-          cena={burger.cena}
-          popis={burger.popis}
-          obsah={burger.obsah}
-        />
-      ))}
+      {burgerMenuList}
       <ButtonShop>Objednej</ButtonShop>
     </Fragment>
   );

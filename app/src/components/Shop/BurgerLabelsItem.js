@@ -39,6 +39,7 @@ const BurgerLabelsItem = (props) => {
         id={props.id}
         min='1'
         max='10'
+        defaultValue='0'
       />
     </div>
   );
