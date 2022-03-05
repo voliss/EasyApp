@@ -1,8 +1,9 @@
 .footstyle {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   background-color: #1d1d1d;
   width: 100%;
+  height: 15rem;
   position: absolute;
 }
 
@@ -12,15 +13,30 @@
 }
 
 .pos {
-  position: relative;
-  top: 2.5rem;
+  position: absolute;
+  top: 4rem;
+  left: 60%;
+}
+
+.pos ul {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.pos ul li img {
+  width: 70%;
+}
+
+.fb {
+  background-color: #fff;
 }
 
 .tel {
   text-align: left;
   position: relative;
-  bottom: 2rem;
-  left: 10rem;
+  top: 4rem;
+  left: 20%;
   color: #fff;
   width: 30%;
 }
