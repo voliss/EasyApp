@@ -1,0 +1,16 @@
+.btnPos {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.buttonDesign {
+  font-size: 3rem;
+  padding: 5px 5rem;
+  border-radius: 1rem;
+  border: #ff0000 2px solid;
+  color: #ffff;
+  background-color: #ff0000;
+  cursor: pointer;
+  z-index: 3;
+}

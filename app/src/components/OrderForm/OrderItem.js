@@ -1,18 +1,26 @@
 import React from 'react';
 
+import classes from './OrderItem.module.css';
+
 const OrderItem = () => {
   return (
     <li>
-      <div>
-        <h2>Lipak</h2>
-        <div>
-          <span>169</span>
+      <h2>Objednávka</h2>
+      <div className={classes.item}>
+        <div className={classes.itemInfo}>
+          <span>Lípák</span>
+          <span>169 CZK</span>
           <span>1 x</span>
+          <div className={classes.btns}>
+            <button>+</button>
+            <button>-</button>
+          </div>
         </div>
       </div>
-      <div>
-        <button>+</button>
-        <button>-</button>
+      <hr />
+      <div className={classes.itemPrice}>
+        <span>Celkem:</span>
+        <span>169 CZK</span>
       </div>
     </li>
   );

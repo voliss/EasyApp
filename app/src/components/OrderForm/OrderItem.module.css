@@ -1,0 +1,57 @@
+h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemInfo {
+  position: relative;
+  right: 1%;
+  display: flex;
+  justify-content: space-around;
+  width: 25rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding: 1rem;
+}
+
+.itemInfo span {
+  display: flex;
+  justify-content: space-between;
+  width: 7rem;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 6rem;
+}
+
+.btns button {
+  font-size: 1.5rem;
+  padding: 0px 15px;
+  border-radius: 10px;
+  background-color: red;
+  border: none;
+  top: 0rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.itemPrice {
+  position: relative;
+  left: 30%;
+  display: flex;
+  justify-content: space-between;
+  width: 12rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem;
+}

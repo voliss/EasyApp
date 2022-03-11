@@ -1,0 +1,21 @@
+.forma {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.formBox {
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+  padding: 0.4rem;
+}
+
+.formBox input {
+  border: 1px solid grey;
+  border-radius: 10px;
+}
