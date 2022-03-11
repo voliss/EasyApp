@@ -5,7 +5,7 @@ import OrderForm from './OrderForm';
 
 import classes from './OrderModule.module.css';
 
-const OrderForm = () => {
+const OrderFormModule = () => {
   return (
     <Fragment>
       <OrderItem />
@@ -14,4 +14,4 @@ const OrderForm = () => {
   );
 };
 
-export default OrderForm;
+export default OrderFormModule;

@@ -6,16 +6,20 @@ import ShopSvg from './ShopSvg';
 import Image2 from '../Images/Image2';
 import ButtonOrder from '../Button/ButtonOrder';
 import Modal from '../OrderForm/Modal';
+import OrderModule from '../OrderForm/OrderModule';
 
 const ShopKatalog = () => {
   const [tmavyPozadi, setTmavyPozadi] = useState(false);
+  const [orderEnv, setOrderEnv] = useState(false);
 
   const pozadiHandler = () => {
     setTmavyPozadi(true);
+    setOrderEnv(true);
   };
 
   const vypniPozadiHandler = () => {
     setTmavyPozadi(false);
+    setOrderEnv(false);
   };
 
   return (
@@ -26,6 +30,7 @@ const ShopKatalog = () => {
       <ShopKatalogOrder />
       <ButtonOrder onClick={pozadiHandler}>Potvrdit</ButtonOrder>
       {tmavyPozadi && <Modal onClose={vypniPozadiHandler} />}
+      {orderEnv && <OrderModule />}
     </Fragment>
   );
 };
